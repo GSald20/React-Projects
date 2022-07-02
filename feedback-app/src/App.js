@@ -5,7 +5,7 @@ import FeedBackList from './components/FeedBackList'
 import FeedBackData from './data/FeedbackData'
 
 function App() {
-  const [feedback, setFeedback] = useState(FeedBackData)
+  const [feedback] = useState(FeedBackData)
   
   return (
     <>
